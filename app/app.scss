@@ -1,0 +1,9 @@
+// Import variables and common styles
+
+// Import the theme’s main ruleset - both index and platform specific.
+@import '~@nativescript/theme/core';
+@import '~@nativescript/theme/blue';
+
+// Import variables and common styles
+@import './styles/variables';
+@import './styles/common';

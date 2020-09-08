@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es5",
+        "lib": [
+            "dom", "es2015"
+        ],
+
+        "experimentalDecorators": true,  /* Enables experimental support for ES7 decorators. */
+        "emitDecoratorMetadata": true,
+
+        "sourceMap": true, /* Generates corresponding '.map' file. */
+
+        "importHelpers": false, /* Import emit helpers from 'tslib'. */
+        "noEmitHelpers": true,
+        "noEmitOnError": true,
+        "importHelpers": true,
+
+        "moduleResolution": "node",
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "app/*"
+            ],
+            "~/*": [
+                "app/*"
+            ],
+            "*": [
+                "./types/*",
+                "./node_modules/tns-core-modules/*",
+                "./node_modules/*"
+            ]
+        },
+
+        "esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+        "allowSyntheticDefaultImports": true, /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+        "typeRoots": [ /* List of folders to include type definitions from. */
+          "types"
+        ],
+
+        "skipLibCheck": true
+    },
+    "include": [
+        "app", "types"
+    ],
+    "exclude": [
+        "node_modules",
+        "platforms"
+    ]
+}
