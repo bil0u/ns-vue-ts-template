@@ -1,4 +1,9 @@
 {
+  "name": "app-pm",
+  "version": "1.0.0",
+  "description": "NativeScript Application",
+  "author": "Ugo Popée <devteam@p0p.ee>",
+  "license": "None",
   "nativescript": {
     "id": "org.nativescript.nsvuets",
     "tns-android": {
@@ -8,9 +13,6 @@
       "version": "6.5.2"
     }
   },
-  "description": "NativeScript Application",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "repository": "<fill-your-repository-here>",
   "dependencies": {
     "@nativescript/theme": "~2.3.0",
     "nativescript-vue": "~2.4.0",
@@ -28,7 +30,5 @@
     "vue": "^2.6.10",
     "vue-loader": "~15.4.0",
     "vue-property-decorator": "^8.3.0"
-  },
-  "gitHead": "1964ea9e8ca1a0518e0d6370781eedcf6c23db42",
-  "readme": "NativeScript Application"
+  }
 }
