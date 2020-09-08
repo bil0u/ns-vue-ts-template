@@ -20,7 +20,7 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class Home extends Vue {
     get message() {
-        return "Hello World !";
+        return "Hello World ! 🚀";
     }
 }
 </script>
