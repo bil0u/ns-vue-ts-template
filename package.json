@@ -1,11 +1,11 @@
 {
-  "name": "app-pm",
+  "name": "ns-vue-ts-template",
   "version": "1.0.0",
   "description": "NativeScript Application",
   "author": "Ugo Popée <devteam@p0p.ee>",
   "license": "None",
   "nativescript": {
-    "id": "org.nativescript.nsvuets",
+    "id": "org.nativescript.nsvuetstemplate",
     "tns-android": {
       "version": "6.5.3"
     },
