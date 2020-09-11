@@ -15,14 +15,14 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+	import { Component, Vue } from "vue-property-decorator";
 
-@Component
-export default class Home extends Vue {
-    get message() {
-        return "Hello World ! 🚀";
-    }
-}
+	@Component
+	export default class Home extends Vue {
+		get message() {
+			return "Hello World ! 🚀";
+		}
+	}
 </script>
 
 <style scoped lang="scss">

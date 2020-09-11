@@ -1,25 +1,22 @@
-import VueDevtools from 'nativescript-vue-devtools'
 import Vue from "nativescript-vue";
+import VueDevtools from 'nativescript-vue-devtools'
 
-// @ts-ignore
-import Home from "./components/Home.vue";
+import store from '@/store/main-store'
 
-// @ts-ignore
 if(TNS_ENV !== 'production') {
 	Vue.use(VueDevtools)
 }
-
-// @ts-ignore
 Vue.config.silent = TNS_ENV === 'production';
 
-new Vue({
+import Home from '@/screens/Home.vue'
 
+new Vue({
     template: `
         <Frame>
             <Home />
         </Frame>`,
-
     components: {
         Home
-    }
+	},
+	store: store
 }).$start();
